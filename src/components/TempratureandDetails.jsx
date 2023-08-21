@@ -26,7 +26,7 @@ function TempratureandDetails({weather}) {
                 <div className="flex font-light text-sm items-center justify-center">
                 <UilTemperature size={18} className="ml-1"/>
                 Real feel:
-                <span className='font-medium mr-1'>{Math.floor(weather.feels_like)}</span>
+                <span className='font-medium mr-1'>{Math.floor(weather.feels_like)}°</span>
                 </div>
                 <div className="flex font-light text-sm items-center justify-center">
                 <UilTear size={18} className="ml-1"/>
